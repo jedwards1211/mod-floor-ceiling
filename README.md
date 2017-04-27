@@ -34,19 +34,19 @@ npm install mod-floor-ceiling
 
 ### `modFloor(value: number, modulus: number, anchor?: number = 0): number`
 
-Returns the greatest (closest to positive infinity) multiple of `modulus` that is `<= value`.
+Returns the greatest (closest to positive infinity) multiple of `modulus`, plus `anchor`, that is `<= value`.
 
 ### `modCeiling(value: number, modulus: number, anchor?: number = 0): number`
 
-Returns the least (closest to negative infinity) multiple of `modulus` that is `>= value`.
+Returns the least (closest to negative infinity) multiple of `modulus`, plus `anchor`, that is `>= value`.
 
 ### `modLower(value: number, modulus: number, anchor?: number = 0): number`
 
-Returns the greatest (closest to positive infinity) multiple of `modulus` that is `< value`.
+Returns the greatest (closest to positive infinity) multiple of `modulus`, plus `anchor`, that is `< value`.
 
 ### `modHigher(value: number, modulus: number, anchor?: number = 0): number`
 
-Returns the greatest (closest to positive infinity) multiple of `modulus` that is `> value`.
+Returns the greatest (closest to positive infinity) multiple of `modulus`, plus `anchor`, that is `> value`.
 
 ### What is `anchor`?
 
