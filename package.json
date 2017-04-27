@@ -1,7 +1,7 @@
 {
-  "name": "es5-library-skeleton",
+  "name": "mod-floor-ceiling",
   "version": "0.0.0-development",
-  "description": "my personal ES5 library project skeleton",
+  "description": "computes floor and ceiling for any modulus, not just 1",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint lib test",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jedwards1211/es5-library-skeleton.git"
+    "url": "https://github.com/jedwards1211/mod-floor-ceiling.git"
   },
   "keywords": [
     "es5"
@@ -40,9 +40,9 @@
   "author": "Andy Edwards",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jedwards1211/es5-library-skeleton/issues"
+    "url": "https://github.com/jedwards1211/mod-floor-ceiling/issues"
   },
-  "homepage": "https://github.com/jedwards1211/es5-library-skeleton#readme",
+  "homepage": "https://github.com/jedwards1211/mod-floor-ceiling#readme",
   "devDependencies": {
     "@jedwards1211/eslint-config-es5": "^1.0.0",
     "@jedwards1211/eslint-config-flow": "^1.0.0",
