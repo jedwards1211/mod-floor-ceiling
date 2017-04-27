@@ -1,3 +1,7 @@
 // @flow
 
-declare module.exports: {};
+declare export function modFloor(value: number, modulus: number, anchor?: number): number;
+declare export function modCeiling(value: number, modulus: number, anchor?: number): number;
+declare export function modLower(value: number, modulus: number, anchor?: number): number;
+declare export function modHigher(value: number, modulus: number, anchor?: number): number;
+
